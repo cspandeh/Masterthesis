@@ -1,0 +1,4 @@
+
+--- lg.reuna.cl hping statistic ---
+86400 packets transmitted, 86387 packets received, 1% packet loss
+round-trip min/avg/max = 190.7/194.7/1271.7 ms
