@@ -1,0 +1,37 @@
+Start: 2024-11-20T13:25:43+0100
+HOST: lhotse                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- rzkw-gw.rrz.uni-koeln.de   0.0%   100    0.6   0.8   0.5   8.9   0.8
+  2.|-- rzkgcore-gw.uklan.mgm      0.0%   100    0.7   0.7   0.5   1.2   0.1
+        physikcore-gw.uklan.mgm          
+  3.|-- border1-gw.uklan.mgm       0.0%   100    1.0   1.2   0.8   7.8   1.1
+        border3-gw.uklan.mgm             
+        border3-gw.uklan.mgm             
+        border1-gw.uklan.mgm             
+  4.|-- cr-fra3-pe11274.x-win.dfn  0.0%   100    3.6   4.0   3.5   4.8   0.4
+        cr-dui3-pe11275.x-win.dfn.de     
+  5.|-- cr-fra2-be31.x-win.dfn.de  0.0%   100    4.3   4.7   4.0  16.2   1.2
+        cr-dui1-be1.x-win.dfn.de         
+  6.|-- cr-fra2-be16.x-win.dfn.de  0.0%   100    6.9   5.9   3.7  11.2   1.5
+        dfn.rt1.fra.de.geant.net         
+  7.|-- lag-1-0.rt0.fra.de.geant.  0.0%   100   15.2  11.3   6.4  15.4   4.3
+        dfn.rt1.fra.de.geant.net         
+  8.|-- lag-1-0.rt0.fra.de.geant.  0.0%   100   17.8  19.2  17.6  21.4   1.7
+        lag-5-0.rt0.gen.ch.geant.net     
+  9.|-- ae4-0.rt1.mar.fr.geant.ne  0.0%   100   42.7  33.2  23.6  55.4   9.8
+        lag-5-0.rt0.gen.ch.geant.net     
+ 10.|-- ae5.mx1.mad.es.geant.net   0.0%   100   33.2  41.2  33.1  65.3   6.6
+        ae4-0.rt1.mar.fr.geant.net       
+ 11.|-- ae4.mx2.lis.pt.geant.net   0.0%   100   42.1  39.6  35.8  43.9   3.1
+        ae5.mx1.mad.es.geant.net         
+ 12.|-- ae4.mx2.lis.pt.geant.net   0.0%   100   44.7  70.7  44.7 105.9  29.5
+        redclara-gw.lis.pt.geant.net     
+ 13.|-- for-sao.redclara.net       0.0%   100  192.2 149.9 106.9 201.6  42.9
+        redclara-gw.lis.pt.geant.net     
+ 14.|-- sao-scl.redclara.net       0.0%   100  192.3 193.8 192.0 199.2   1.4
+        for-sao.redclara.net             
+ 15.|-- scl-reuna.redclara.net     0.0%   100  192.7 193.8 192.3 198.1   1.3
+        sao-scl.redclara.net             
+ 16.|-- scl-reuna.redclara.net    40.0%   100  195.2 195.4 194.9 201.3   0.9
+ 17.|-- 146.83.187.2              53.0%   100  192.0 192.1 191.9 194.8   0.4
+ 18.|-- www.e-ciencia.cl           0.0%   100  192.4 193.7 192.1 198.1   1.3
+        146.83.187.2                     

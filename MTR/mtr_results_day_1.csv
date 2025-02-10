@@ -1,0 +1,20 @@
+Host,Loss%,Snt,Last,Avg,Best,Wrst,StDev
+Mtr_Version,Start_Time,Status,Host,Hop,Ip,Loss%,Snt, ,Last,Avg,Best,Wrst,StDev,
+MTR.0.94,1726926848,OK,reuna.cl,1,rzkw-gw.rrz.uni-koeln.de,0.00,100,0,0.69,0.74,0.61,1.20,0.08
+MTR.0.94,1726926848,OK,reuna.cl,2,physikcore-gw.uklan.mgm,0.00,100,0,0.57,0.61,0.46,0.89,0.08
+MTR.0.94,1726926848,OK,reuna.cl,3,border1-gw.uklan.mgm,0.00,100,0,1.21,1.26,0.93,2.10,0.17
+MTR.0.94,1726926848,OK,reuna.cl,4,cr-dui1-pwether11275.x-win.dfn.de,0.00,100,0,4.81,4.93,4.77,5.47,0.11
+MTR.0.94,1726926848,OK,reuna.cl,5,cr-fra2-be16.x-win.dfn.de,0.00,100,0,6.79,12.46,6.59,113.53,19.04
+MTR.0.94,1726926848,OK,reuna.cl,6,dfn.rt1.fra.de.geant.net,0.00,100,0,6.52,6.58,6.36,6.83,0.09
+MTR.0.94,1726926848,OK,reuna.cl,7,lag-1-0.rt0.fra.de.geant.net,0.00,100,0,17.76,17.74,17.67,18.10,0.07
+MTR.0.94,1726926848,OK,reuna.cl,8,ae5-0.mx1.gen.ch.geant.net,0.00,100,0,44.89,45.06,44.83,45.34,0.10
+MTR.0.94,1726926848,OK,reuna.cl,9,ae4.rt1.mar.fr.geant.net,0.00,100,0,45.26,45.48,44.99,64.11,1.92
+MTR.0.94,1726926848,OK,reuna.cl,10,ae5.mx1.mad.es.geant.net,0.00,100,0,35.88,36.34,35.75,54.56,2.44
+MTR.0.94,1726926848,OK,reuna.cl,11,ae4.mx2.lis.pt.geant.net,0.00,100,0,44.78,45.72,44.62,85.68,4.65
+MTR.0.94,1726926848,OK,reuna.cl,12,redclara-gw.lis.pt.geant.net,0.00,100,0,107.08,107.26,106.85,110.96,0.54
+MTR.0.94,1726926848,OK,reuna.cl,13,for-sao.redclara.net,0.00,100,0,194.56,194.58,194.06,196.13,0.26
+MTR.0.94,1726926848,OK,reuna.cl,14,sao-scl.redclara.net,0.00,100,0,194.62,194.54,194.27,195.83,0.19
+MTR.0.94,1726926848,OK,reuna.cl,15,scl-reuna.redclara.net,0.00,100,0,194.93,195.02,194.63,197.85,0.38
+MTR.0.94,1726926848,OK,reuna.cl,16,???,100.00,100,100,0.00,0.00,0.00,0.00,0.00
+MTR.0.94,1726926848,OK,reuna.cl,17,146.83.187.2,1.00,100,1,194.25,194.74,194.18,238.47,4.44
+MTR.0.94,1726926848,OK,reuna.cl,18,???,100.00,100,100,0.00,0.00,0.00,0.00,0.00

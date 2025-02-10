@@ -1,0 +1,212 @@
+{
+    "report": {
+        "mtr": {
+            "src": "lhotse",
+            "dst": "reuna.cl",
+            "tos": 0,
+            "tests": 100,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "rzkw-gw.rrz.uni-koeln.de",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 0.704,
+                "Avg": 0.854,
+                "Best": 0.558,
+                "Wrst": 9.877,
+                "StDev": 0.953
+            },
+            {
+                "count": 2,
+                "host": "physikcore-gw.uklan.mgm",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 0.505,
+                "Avg": 0.617,
+                "Best": 0.463,
+                "Wrst": 0.83,
+                "StDev": 0.084
+            },
+            {
+                "count": 3,
+                "host": "border1-gw.uklan.mgm",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 1.207,
+                "Avg": 1.253,
+                "Best": 1.005,
+                "Wrst": 1.98,
+                "StDev": 0.136
+            },
+            {
+                "count": 4,
+                "host": "cr-dui1-pwether11275.x-win.dfn.de",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 4.765,
+                "Avg": 4.94,
+                "Best": 4.715,
+                "Wrst": 6.264,
+                "StDev": 0.176
+            },
+            {
+                "count": 5,
+                "host": "cr-fra2-be16.x-win.dfn.de",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 6.83,
+                "Avg": 7.072,
+                "Best": 6.533,
+                "Wrst": 11.939,
+                "StDev": 0.795
+            },
+            {
+                "count": 6,
+                "host": "dfn.rt1.fra.de.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 6.684,
+                "Avg": 6.545,
+                "Best": 6.338,
+                "Wrst": 6.756,
+                "StDev": 0.091
+            },
+            {
+                "count": 7,
+                "host": "lag-1-0.rt0.fra.de.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 17.677,
+                "Avg": 17.723,
+                "Best": 17.561,
+                "Wrst": 17.89,
+                "StDev": 0.057
+            },
+            {
+                "count": 8,
+                "host": "ae5-0.mx1.gen.ch.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 45.087,
+                "Avg": 45.088,
+                "Best": 44.877,
+                "Wrst": 45.509,
+                "StDev": 0.107
+            },
+            {
+                "count": 9,
+                "host": "ae4.rt1.mar.fr.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 45.112,
+                "Avg": 45.55,
+                "Best": 44.971,
+                "Wrst": 62.204,
+                "StDev": 2.251
+            },
+            {
+                "count": 10,
+                "host": "ae5.mx1.mad.es.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 35.907,
+                "Avg": 36.176,
+                "Best": 35.773,
+                "Wrst": 49.195,
+                "StDev": 1.602
+            },
+            {
+                "count": 11,
+                "host": "ae4.mx2.lis.pt.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 44.887,
+                "Avg": 45.363,
+                "Best": 44.741,
+                "Wrst": 56.291,
+                "StDev": 1.678
+            },
+            {
+                "count": 12,
+                "host": "redclara-gw.lis.pt.geant.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 107.09,
+                "Avg": 107.19,
+                "Best": 106.91,
+                "Wrst": 108.25,
+                "StDev": 0.169
+            },
+            {
+                "count": 13,
+                "host": "for-sao.redclara.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 194.56,
+                "Avg": 194.59,
+                "Best": 194.34,
+                "Wrst": 195.1,
+                "StDev": 0.137
+            },
+            {
+                "count": 14,
+                "host": "sao-scl.redclara.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 194.59,
+                "Avg": 194.58,
+                "Best": 194.37,
+                "Wrst": 195.5,
+                "StDev": 0.159
+            },
+            {
+                "count": 15,
+                "host": "scl-reuna.redclara.net",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 195.23,
+                "Avg": 195.26,
+                "Best": 194.9,
+                "Wrst": 201.87,
+                "StDev": 0.685
+            },
+            {
+                "count": 16,
+                "host": "???",
+                "Loss%": 100.0,
+                "Snt": 100,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 17,
+                "host": "146.83.187.2",
+                "Loss%": 0.0,
+                "Snt": 100,
+                "Last": 194.3,
+                "Avg": 194.3,
+                "Best": 194.2,
+                "Wrst": 194.5,
+                "StDev": 0.061
+            },
+            {
+                "count": 18,
+                "host": "???",
+                "Loss%": 100.0,
+                "Snt": 100,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            }
+        ]
+    }
+}
