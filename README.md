@@ -35,7 +35,9 @@ Contains test results and configurations for PScheduler-based measurements.
   - `ZeroLoss/`: Measurements in a zero-loss network environment
 
 ### `Wireshark/`
-Directory for packet captures and network analysis using Wireshark.
+Contains Wireshark measurement results and scripts for parsing and analyzing Wireshark CSV data.
+- **Results:** `Setting_wireshark`
+- **Scripts:** `wireshark-1GB`, `analyze_wireshark.py`
 
 ---
 
