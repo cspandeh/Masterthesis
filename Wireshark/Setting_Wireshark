@@ -1,0 +1,67 @@
+WIRESHARK Testing
+
+https://lg.reuna.cl/
+
+
+Wireshark Test 1: 06.12.2024 16:24; Package Loss 0%; TCP filtered;
+[cspandeh@lhotse Wireshark]$ python3 analyze_wireshark.py Wireshark_test1_061224.csv
+Analyzed file: Wireshark_test1_061224.csv
+Total packets: 1000762
+Retransmissions: 0
+ACKed Lost Segments: 0
+Total lost packets: 0
+Packet loss percentage: 0.00%
+Total data transferred: 1067839180 Bytes
+Duration: 141.00 seconds
+Throughput: 60.59 Mbps
+
+
+Wireshark Test 2: 06.12.2024 16:30; Package Loss 0%; TCP filtered
+[cspandeh@lhotse Wireshark]$ python3 analyze_wireshark.py Wireshark_test2_061224.csv
+Analyzed file: Wireshark_test2_061224.csv
+Total packets: 1005208
+Retransmissions: 0
+ACKed Lost Segments: 0
+Total lost packets: 0
+Packet loss percentage: 0.00%
+Total data transferred: 1068149930 Bytes
+Duration: 145.81 seconds
+Throughput: 58.60 Mbps
+
+
+Wireshark Test 3: 09.12.2024 13:15; Package Loss 0.000016% (16 of 995958); TCP filtered
+[cspandeh@lhotse Wireshark]$ python3 analyze_wireshark.py Wireshark_test3_091224.csv
+Analyzed file: Wireshark_test3_091224.csv
+Total packets: 995958
+Retransmissions: 1
+ACKed Lost Segments: 15
+Total lost packets: 16
+Packet loss percentage: 0.00%
+Total data transferred: 1067583076 Bytes
+Duration: 144.11 seconds
+Throughput: 59.26 Mbps
+
+Wireshark Test 4: 18.12.2024 17:13; Package Loss 0.0000041% 4 of 983999); TCP filtered
+[cspandeh@lhotse Wireshark]$ sudo python3 ./analyze_wireshark.py tcp_capture.csv
+Analyzed file: Wireshark_test4_181224.csv
+Total packets: 983999
+Retransmissions: 4
+ACKed Lost Segments: 0
+Total lost packets: 4
+Packet loss percentage: 0.00%
+Total data transferred: 1067041396 Bytes
+Duration: 153.98 seconds
+Throughput: 55.44 Mbps
+
+
+Wireshark Test 5: 19.12.2024 9:50; Package Loss 0% 0 of 1000540); TCP filtered
+[cspandeh@lhotse Wireshark]$ python3 ./analyze_wireshark.py tcp_capture.csv
+Analyzed file: Wireshark_test5_191224.csv
+Total packets: 1000540
+Retransmissions: 0
+ACKed Lost Segments: 0
+Total lost packets: 0
+Packet loss percentage: 0.00%
+Total data transferred: 1068034148 Bytes
+Duration: 158.95 seconds
+Throughput: 53.75 Mbps
