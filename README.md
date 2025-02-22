@@ -40,6 +40,9 @@ Contains test results and configurations for PScheduler- and IPerf3-based measur
   - `Configurations/`: Configuration files and miscellaneous scripts for setting up PScheduler and network parameters.
   - `More-and-more/`: Additional experiments focusing on adding more and more Background Traffic.
     - **noloss/**: Measurements and test results in a zero-loss network environment, including various test result folders and processing scripts.
+  - `Initial-Tests/`: Test results simulating realistic network conditions.
+    - **distribution-model-tests/**: Measurements for different tc netem delay distribution models.
+    - **Varying-loss-bg-traffic/**: Measurements for initial tests, involving 0, 2 and 4 Background Streams, as well as 0%, 0.01% and 0.1% packet loss.
 
 ### `Wireshark/`
 Contains Wireshark measurement results and scripts for parsing and analyzing Wireshark CSV data.
