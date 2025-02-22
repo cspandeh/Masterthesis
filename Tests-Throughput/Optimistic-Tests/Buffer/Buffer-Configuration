@@ -1,0 +1,21 @@
+Source: https://fasterdata.es.net/host-tuning/linux/test-measurement-host-tuning/
+Options in: /etc/sysctl.conf
+
+Current:
+    net.ipv4.tcp_no_metrics_save = 1
+
+    net.ipv4.tcp_rmem = 4096 174760 536870912
+    net.ipv4.tcp_wmem = 4096 131072 536870912
+    net.core.rmem_max = 536870912
+    net.core.wmem_max = 536870912
+
+Change to 1GB:
+    net.ipv4.tcp_no_metrics_save = 1
+
+    net.ipv4.tcp_rmem = 4096 174760 1073741824
+    net.ipv4.tcp_wmem = 4096 131072 1073741824
+    net.core.rmem_max = 1073741824
+    net.core.wmem_max = 1073741824
+
+
+Activate changes: sudo sysctl -p

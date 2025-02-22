@@ -1,0 +1,12 @@
+Source: https://fasterdata.es.net/host-tuning/linux/test-measurement-host-tuning/
+Options in: /etc/sysctl.conf
+
+Current:
+     net.core.default_qdisc = fq
+
+
+Change to FQ-CODEL:
+
+    net.core.default_qdisc = fq_codel
+
+Activate changes: sudo sysctl -p
