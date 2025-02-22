@@ -1,0 +1,5 @@
+Which Ports need to be open for testing?
+
+Ping-Port: 443
+iperf3-Port (pscheduler throughput): 5201, 5002
+Open Ports on Lhotse and Dentblanche: 80, 443, 5201, 5002

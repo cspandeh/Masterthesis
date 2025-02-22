@@ -1,0 +1,28 @@
+Changes in /etc/pscheduler/limits.conf on dentblanche to allow arbitrary tests to be conducted:
+
+Addition of IDENTIFIER:
+{ "name": "interface-lhotse",
+"description": "Requests coming from lhotse",
+"type": "ip-cidr-list",
+"data": {
+	"cidrs": [
+		"10.42.0.2"
+		]
+		}
+},
+
+Change of CLASSIFIERS - FRIENDLIES:
+....
+"identifiers":["interface-lhotse", "local-interfaces"]
+},
+
+Limits entfernen in APPLICATIONS unter friendlies:
+...
+"limits": [ ]
+...
+
+
+Specifies how many out-of-order packets are accepted before TCP assumes packet loss.
+Recommendation: In simulated networks with jitter (such as netem), a higher value might help:
+
+sudo sysctl -w net.ipv4.tcp_reordering=15

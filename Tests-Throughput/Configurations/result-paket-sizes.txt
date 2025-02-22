@@ -1,0 +1,262 @@
+Average packet size: 63868.84 bytes (over 2127628 packets).
+
+Average packet size: 65156.81 bytes (over 2123084 packets)
+
+Average packet size: 65157.50 bytes (over 2122852 packets).
+
+
+Packets on enp2s0:
+    OutOctets: 13,159,388,290,055
+    OutPackets: 8,669,037,422
+Average frame size = 13,159,388,290,055 / 8,669,037,422 ≈ 1518 bytes
+
+Packets on enp2s0:
+    TX bytes: 13,124,712,050,925
+    TX packets: 8,669,037,457
+Average frame size = 13,124,712,050,925 / 8,669,037,457 ≈ 1514 bytes
+
+
+[cspandeh@lhotse PScheduler]$ ethtool -S enp2s0
+NIC statistics:
+     InPackets: 399932943
+     InUCast: 399932509
+     InMCast: 430
+     InBCast: 4
+     InErrors: 0
+     OutPackets: 8669037422
+     OutUCast: 8669036960
+     OutMCast: 458
+     OutBCast: 4
+     InUCastOctets: 31042667101
+     OutUCastOctets: 13159388258805
+     InMCastOctets: 28564
+     OutMCastOctets: 30898
+     InBCastOctets: 352
+     OutBCastOctets: 352
+     InOctets: 31042696017
+     OutOctets: 13159388290055
+     InPacketsDma: 399932526
+     OutPacketsDma: 8669037422
+     InOctetsDma: 29442103193
+     OutOctetsDma: 13124712048321
+     InDroppedDma: 0
+     Queue[0] InPackets: 64806747
+     Queue[0] InJumboPackets: 0
+     Queue[0] InLroPackets: 0
+     Queue[0] InErrors: 0
+     Queue[0] AllocFails: 0
+     Queue[0] SkbAllocFails: 0
+     Queue[0] Polls: 114375241
+     Queue[0] PageFlips: 94
+     Queue[0] PageReuses: 64806625
+     Queue[0] PageFrees: 0
+     Queue[0] XdpAbort: 0
+     Queue[0] XdpDrop: 0
+     Queue[0] XdpPass: 0
+     Queue[0] XdpTx: 0
+     Queue[0] XdpInvalid: 0
+     Queue[0] XdpRedirect: 0
+     Queue[0] OutPackets: 55860482
+     Queue[0] Restarts: 0
+     Queue[1] InPackets: 43371053
+     Queue[1] InJumboPackets: 0
+     Queue[1] InLroPackets: 0
+     Queue[1] InErrors: 0
+     Queue[1] AllocFails: 0
+     Queue[1] SkbAllocFails: 0
+     Queue[1] Polls: 97202843
+     Queue[1] PageFlips: 88
+     Queue[1] PageReuses: 43370958
+     Queue[1] PageFrees: 0
+     Queue[1] XdpAbort: 0
+     Queue[1] XdpDrop: 0
+     Queue[1] XdpPass: 0
+     Queue[1] XdpTx: 0
+     Queue[1] XdpInvalid: 0
+     Queue[1] XdpRedirect: 0
+     Queue[1] OutPackets: 56568310
+     Queue[1] Restarts: 0
+     Queue[2] InPackets: 55109654
+     Queue[2] InJumboPackets: 0
+     Queue[2] InLroPackets: 0
+     Queue[2] InErrors: 0
+     Queue[2] AllocFails: 0
+     Queue[2] SkbAllocFails: 0
+     Queue[2] Polls: 115593576
+     Queue[2] PageFlips: 92
+     Queue[2] PageReuses: 55109530
+     Queue[2] PageFrees: 0
+     Queue[2] XdpAbort: 0
+     Queue[2] XdpDrop: 0
+     Queue[2] XdpPass: 0
+     Queue[2] XdpTx: 0
+     Queue[2] XdpInvalid: 0
+     Queue[2] XdpRedirect: 0
+     Queue[2] OutPackets: 64536959
+     Queue[2] Restarts: 1308
+     Queue[3] InPackets: 58734928
+     Queue[3] InJumboPackets: 0
+     Queue[3] InLroPackets: 0
+     Queue[3] InErrors: 0
+     Queue[3] AllocFails: 0
+     Queue[3] SkbAllocFails: 0
+     Queue[3] Polls: 108033641
+     Queue[3] PageFlips: 99
+     Queue[3] PageReuses: 58734826
+     Queue[3] PageFrees: 0
+     Queue[3] XdpAbort: 0
+     Queue[3] XdpDrop: 0
+     Queue[3] XdpPass: 0
+     Queue[3] XdpTx: 0
+     Queue[3] XdpInvalid: 0
+     Queue[3] XdpRedirect: 0
+     Queue[3] OutPackets: 54491637
+     Queue[3] Restarts: 0
+     Queue[4] InPackets: 50502760
+     Queue[4] InJumboPackets: 0
+     Queue[4] InLroPackets: 0
+     Queue[4] InErrors: 0
+     Queue[4] AllocFails: 0
+     Queue[4] SkbAllocFails: 0
+     Queue[4] Polls: 97725541
+     Queue[4] PageFlips: 80
+     Queue[4] PageReuses: 50502676
+     Queue[4] PageFrees: 0
+     Queue[4] XdpAbort: 0
+     Queue[4] XdpDrop: 0
+     Queue[4] XdpPass: 0
+     Queue[4] XdpTx: 0
+     Queue[4] XdpInvalid: 0
+     Queue[4] XdpRedirect: 0
+     Queue[4] OutPackets: 51401716
+     Queue[4] Restarts: 0
+     Queue[5] InPackets: 35287640
+     Queue[5] InJumboPackets: 0
+     Queue[5] InLroPackets: 0
+     Queue[5] InErrors: 0
+     Queue[5] AllocFails: 0
+     Queue[5] SkbAllocFails: 0
+     Queue[5] Polls: 90603521
+     Queue[5] PageFlips: 101
+     Queue[5] PageReuses: 35287527
+     Queue[5] PageFrees: 0
+     Queue[5] XdpAbort: 0
+     Queue[5] XdpDrop: 0
+     Queue[5] XdpPass: 0
+     Queue[5] XdpTx: 0
+     Queue[5] XdpInvalid: 0
+     Queue[5] XdpRedirect: 0
+     Queue[5] OutPackets: 57735930
+     Queue[5] Restarts: 0
+     Queue[6] InPackets: 41619165
+     Queue[6] InJumboPackets: 0
+     Queue[6] InLroPackets: 0
+     Queue[6] InErrors: 0
+     Queue[6] AllocFails: 0
+     Queue[6] SkbAllocFails: 0
+     Queue[6] Polls: 81754433
+     Queue[6] PageFlips: 76
+     Queue[6] PageReuses: 41619087
+     Queue[6] PageFrees: 0
+     Queue[6] XdpAbort: 0
+     Queue[6] XdpDrop: 0
+     Queue[6] XdpPass: 0
+     Queue[6] XdpTx: 0
+     Queue[6] XdpInvalid: 0
+     Queue[6] XdpRedirect: 0
+     Queue[6] OutPackets: 43098253
+     Queue[6] Restarts: 0
+     Queue[7] InPackets: 50500579
+     Queue[7] InJumboPackets: 0
+     Queue[7] InLroPackets: 0
+     Queue[7] InErrors: 0
+     Queue[7] AllocFails: 0
+     Queue[7] SkbAllocFails: 0
+     Queue[7] Polls: 113000786
+     Queue[7] PageFlips: 89
+     Queue[7] PageReuses: 50500471
+     Queue[7] PageFrees: 0
+     Queue[7] XdpAbort: 0
+     Queue[7] XdpDrop: 0
+     Queue[7] XdpPass: 0
+     Queue[7] XdpTx: 0
+     Queue[7] XdpInvalid: 0
+     Queue[7] XdpRedirect: 0
+     Queue[7] OutPackets: 66341814
+     Queue[7] Restarts: 1311
+     PTP Queue[16] InPackets: 0
+     PTP Queue[16] InJumboPackets: 0
+     PTP Queue[16] InLroPackets: 0
+     PTP Queue[16] InErrors: 0
+     PTP Queue[16] AllocFails: 0
+     PTP Queue[16] SkbAllocFails: 0
+     PTP Queue[16] Polls: 0
+     PTP Queue[16] PageFlips: 0
+     PTP Queue[16] PageReuses: 0
+     PTP Queue[16] PageFrees: 0
+     PTP Queue[16] XdpAbort: 0
+     PTP Queue[16] XdpDrop: 0
+     PTP Queue[16] XdpPass: 0
+     PTP Queue[16] XdpTx: 0
+     PTP Queue[16] XdpInvalid: 0
+     PTP Queue[16] XdpRedirect: 0
+     PTP Queue[16] OutPackets: 0
+     PTP Queue[16] Restarts: 0
+     PTP Queue[31] InPackets: 0
+     PTP Queue[31] InJumboPackets: 0
+     PTP Queue[31] InLroPackets: 0
+     PTP Queue[31] InErrors: 0
+     PTP Queue[31] AllocFails: 0
+     PTP Queue[31] SkbAllocFails: 0
+     PTP Queue[31] Polls: 0
+     PTP Queue[31] PageFlips: 0
+     PTP Queue[31] PageReuses: 0
+     PTP Queue[31] PageFrees: 0
+     PTP Queue[31] XdpAbort: 0
+     PTP Queue[31] XdpDrop: 0
+     PTP Queue[31] XdpPass: 0
+     PTP Queue[31] XdpTx: 0
+     PTP Queue[31] XdpInvalid: 0
+     PTP Queue[31] XdpRedirect: 0
+     MACSec InCtlPackets: 0
+     MACSec InTaggedMissPackets: 0
+     MACSec InUntaggedMissPackets: 399932943
+     MACSec InNotagPackets: 399932943
+     MACSec InUntaggedPackets: 0
+     MACSec InBadTagPackets: 0
+     MACSec InNoSciPackets: 0
+     MACSec InUnknownSciPackets: 0
+     MACSec InCtrlPortPassPackets: 0
+     MACSec InUnctrlPortPassPackets: 399932943
+     MACSec InCtrlPortFailPackets: 0
+     MACSec InUnctrlPortFailPackets: 0
+     MACSec InTooLongPackets: 0
+     MACSec InIgpocCtlPackets: 0
+     MACSec InEccErrorPackets: 0
+     MACSec InUnctrlHitDropRedir: 0
+     MACSec OutCtlPackets: 4
+     MACSec OutUnknownSaPackets: 8669037418
+     MACSec OutUntaggedPackets: 0
+     MACSec OutTooLong: 0
+     MACSec OutEccErrorPackets: 0
+     MACSec OutUnctrlHitDropRedir: 0
+[cspandeh@lhotse PScheduler]$ ip -s link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX:    bytes  packets errors dropped  missed   mcast           
+    122006777862 37345131      0       0       0       0 
+    TX:    bytes  packets errors dropped carrier collsns           
+    122006777862 37345131      0       0       0       0 
+2: enp0s31f6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether cc:96:e5:2e:7c:3e brd ff:ff:ff:ff:ff:ff
+    RX:  bytes  packets errors dropped  missed   mcast           
+    7309156088 20643877      0       0       0  108838 
+    TX:  bytes  packets errors dropped carrier collsns           
+    2291351472  4781631      0       0       0       0 
+3: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 60:83:e7:67:c5:63 brd ff:ff:ff:ff:ff:ff
+    RX:      bytes    packets errors dropped  missed   mcast           
+       29442104113  399932536      0       0       0     430 
+    TX:      bytes    packets errors dropped carrier collsns           
+    13124712050925 8669037457      0       0       0       0 
+[cspandeh@lhotse PScheduler]$ 

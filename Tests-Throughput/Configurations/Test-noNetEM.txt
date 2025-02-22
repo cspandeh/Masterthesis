@@ -1,0 +1,59 @@
+CUBIC iperf3 --congestion cubic -c 10.42.0.1 -p 5002
+Connecting to host 10.42.0.1, port 5002
+[  5] local 10.42.0.2 port 48130 connected to 10.42.0.1 port 5002
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.08 GBytes  9.31 Gbits/sec    0   2.00 MBytes       
+[  5]   1.00-2.00   sec  1.07 GBytes  9.20 Gbits/sec    0   2.00 MBytes       
+[  5]   2.00-3.00   sec  1.08 GBytes  9.23 Gbits/sec    0   2.00 MBytes       
+[  5]   3.00-4.00   sec  1.07 GBytes  9.23 Gbits/sec    0   2.00 MBytes       
+[  5]   4.00-5.00   sec  1.07 GBytes  9.20 Gbits/sec    0   2.00 MBytes       
+[  5]   5.00-6.00   sec  1.08 GBytes  9.25 Gbits/sec    0   2.00 MBytes       
+[  5]   6.00-7.00   sec  1.07 GBytes  9.20 Gbits/sec    0   2.00 MBytes       
+[  5]   7.00-8.00   sec  1.07 GBytes  9.22 Gbits/sec    0   2.00 MBytes       
+[  5]   8.00-9.00   sec  1.07 GBytes  9.22 Gbits/sec    0   2.00 MBytes       
+[  5]   9.00-10.00  sec  1.08 GBytes  9.24 Gbits/sec    0   2.00 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  10.7 GBytes  9.23 Gbits/sec    0             sender
+[  5]   0.00-10.00  sec  10.7 GBytes  9.22 Gbits/sec                  receiver
+
+
+BBR iperf3 --congestion bbr -c 10.42.0.1 -p 5002
+Connecting to host 10.42.0.1, port 5002
+[  5] local 10.42.0.2 port 58084 connected to 10.42.0.1 port 5002
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.08 GBytes  9.26 Gbits/sec    0    667 KBytes       
+[  5]   1.00-2.00   sec  1.08 GBytes  9.24 Gbits/sec    0    656 KBytes       
+[  5]   2.00-3.00   sec  1.07 GBytes  9.22 Gbits/sec    0    648 KBytes       
+[  5]   3.00-4.00   sec  1.07 GBytes  9.21 Gbits/sec    0    682 KBytes       
+[  5]   4.00-5.00   sec  1.07 GBytes  9.21 Gbits/sec    0    642 KBytes       
+[  5]   5.00-6.00   sec  1.07 GBytes  9.24 Gbits/sec    0    653 KBytes       
+[  5]   6.00-7.00   sec  1.07 GBytes  9.21 Gbits/sec    0    696 KBytes       
+[  5]   7.00-8.00   sec  1.07 GBytes  9.23 Gbits/sec    0    634 KBytes       
+[  5]   8.00-9.00   sec  1.07 GBytes  9.20 Gbits/sec    0    701 KBytes       
+[  5]   9.00-10.00  sec  1.07 GBytes  9.22 Gbits/sec    0    713 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  10.7 GBytes  9.23 Gbits/sec    0             sender
+[  5]   0.00-10.00  sec  10.7 GBytes  9.22 Gbits/sec                  receiver
+
+
+H-TCP iperf3 --congestion htcp -c 10.42.0.1 -p 5002
+Connecting to host 10.42.0.1, port 5002
+Connecting to host 10.42.0.1, port 5002
+[  5] local 10.42.0.2 port 56392 connected to 10.42.0.1 port 5002
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.14 GBytes  9.79 Gbits/sec    0   7.77 MBytes       
+[  5]   1.00-2.00   sec  1.05 GBytes  9.06 Gbits/sec    0   7.77 MBytes       
+[  5]   2.00-3.00   sec  1.07 GBytes  9.23 Gbits/sec    0   7.77 MBytes       
+[  5]   3.00-4.00   sec  1.05 GBytes  9.04 Gbits/sec    0   7.77 MBytes       
+[  5]   4.00-5.00   sec  1.06 GBytes  9.15 Gbits/sec    0   7.77 MBytes       
+[  5]   5.00-6.00   sec  1.09 GBytes  9.36 Gbits/sec    0   7.77 MBytes       
+[  5]   6.00-7.00   sec  1.06 GBytes  9.11 Gbits/sec    0   7.77 MBytes       
+[  5]   7.00-8.00   sec  1.09 GBytes  9.35 Gbits/sec    0   7.77 MBytes       
+[  5]   8.00-9.00   sec  1.06 GBytes  9.09 Gbits/sec    0   7.77 MBytes       
+[  5]   9.00-10.00  sec  1.06 GBytes  9.09 Gbits/sec    0   7.77 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  10.8 GBytes  9.27 Gbits/sec    0             sender
+[  5]   0.00-10.00  sec  10.7 GBytes  9.22 Gbits/sec                  receiver
