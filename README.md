@@ -18,21 +18,28 @@ Includes MTR (My Traceroute) results, analysis scripts, and shell scripts for au
 - **Results:** `mtr_results*.csv`, `mtr_results.json`, `mtr_routenanalyse.txt`
 - **Scripts:** `mtr_script.sh`, `mtr_to_csv.sh`
 
-### `PScheduler/`
-Contains test results and configurations for PScheduler-based measurements.
-- **Measurement Results:** JSON and TXT files from different congestion control algorithms (BBR, CUBIC, HTCP)
-- **Plots:** PDF files visualizing measurement results
-- **Scripts:** `run-test.sh`, `plot-measurement.py`
+### `Tests-Throughput/`
+Contains test results and configurations for PScheduler- and IPerf3-based measurements.
+- **Measurement Results:**  
+  Various JSON and TXT files documenting throughput and performance under different conditions (realistic, optimistic, zero-loss, etc.).
+- **Plots:**  
+  PDF and other image files automatically generated to visualize measurement results.
+- **Scripts:**  
+  A suite of shell and Python scripts for running tests, processing logs, and plotting results (e.g., `run-real-baseline-test.sh`, `plot-measurement.py`, `throughput-per-interval.py`).
 - **Subdirectories:**
-  - `Messungen-Testen/`: Initial tests and plotting scripts
-  - `NeueTest/`: New test configurations and results
-  - `Baseline/`: Baseline measurements for comparison
-  - `Bg-Flows/`: Measurements with background traffic
-  - `BUFFER/`: Tests related to buffer size impact
-  - `FQ_CODEL/`: Tests evaluating FQ-CoDel queue management
-  - `realistic-tests/`: Tests simulating real-world traffic distributions
-  - `stable-tests/`: Stability tests for different congestion control mechanisms
-  - `ZeroLoss/`: Measurements in a zero-loss network environment
+  - `Realistic-Tests/`: Test results simulating realistic network conditions.
+    - **Baseline/**: Baseline measurements for realistic scenarios.
+    - **Bg-Flows/**: Measurements with background traffic under realistic conditions.
+    - **Buffer/**: Tests investigating the impact of 1 GB buffer sizes.
+    - **FQ-Codel/**: Experiments evaluating FQ-CoDel queue management.
+  - `Optimistic-Tests/`: Test results under optimistic network conditions (no loss).
+    - **Baseline/**: Baseline measurements for optimistic scenarios.
+    - **Bg-Flows/**: Optimistic tests with background traffic.
+    - **Buffer/**: Tests investigating the impact of 1 GB buffer sizes.
+    - **FQ-Codel/**: Optimistic tests focusing on FQ-CoDel performance.
+  - `Configurations/`: Configuration files and miscellaneous scripts for setting up PScheduler and network parameters.
+  - `More-and-more/`: Additional experiments focusing on adding more and more Background Traffic.
+    - **noloss/**: Measurements and test results in a zero-loss network environment, including various test result folders and processing scripts.
 
 ### `Wireshark/`
 Contains Wireshark measurement results and scripts for parsing and analyzing Wireshark CSV data.
