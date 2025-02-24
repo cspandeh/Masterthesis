@@ -1,0 +1,32 @@
+Interval 0 - 150 sec: TP-Sum = 40601.42 MBytes; 2270.60 Mbit/s
+Interval 150 - 300 sec: TP-Sum = 6963.00 MBytes; 389.40 Mbit/s
+Interval 300 - 450 sec: TP-Sum = 292.00 MBytes; 16.33 Mbit/s
+Interval 450 - 600 sec: TP-Sum = 146.00 MBytes; 8.16 Mbit/s
+Test Number:             1
+Date & Time:             20250221_115712
+Server IP:               10.42.0.1
+Main Flow Port:          5201
+Main Flow Duration:      600 seconds
+Main Flow Congestion:    cubic
+
+Background Flow 1:
+  Port:                5002
+  Duration:            150 seconds
+  Parallel Streams:    4
+  Congestion Control:  cubic
+
+Background Flow 2:
+  Port:                5001
+  Duration:            300 seconds
+  Parallel Streams:    5
+  Congestion Control:  cubic
+
+Background Flow 3:
+  Port:                5101
+  Duration:            450 seconds
+  Parallel Streams:    6
+  Congestion Control:  cubic
+
+TC Netem Settings:
+  sudo tc qdisc add dev enp2s0 root netem delay 195ms 1.6ms distribution paretonormal
+
